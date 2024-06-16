@@ -51,24 +51,27 @@ avrmenu
 ### 3. Shows Which AVR Drivers You need to use with your application 
 Be Careful Till now this project doesnt support the depenedency of drivers on eah other so choose your drivers carefully. 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/Drivers.png)
 
 
 ### 4. Shows Whether you want to get the drivers from github online or just copy from the Local. 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/download.png)
 
 ### 5. Your project and ready to read your application.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/tree.png)
 
 
 ## Compile 
 
 ### 1- **Create a Build Directory** 
 Navigate to the top-level project directory and create a folder named build 
+
 ### 2-  **Generate Makefiles:**
 Run the following command to configure CMake and generate the necessary makefiles:
+
+![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/cmake.png)
 
 
 Replace .. with the path to your project's top directory if you're running this command from a different location.
@@ -83,11 +86,14 @@ your project:
 
 This will compile your source code (.c files) and link them with the appropriate driver libraries, creating an executable file (typically named project_name.elf).
 
+![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/tree.png)
 
 
 ## Flashing 
 ### **Flashing the MCU:** 
 Another custom target allows you to flash the generated hex file directly to your microcontroller using avrdude:
+
+![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/tree.png)
 
 Ensure you have avr-objcopy, avrdude, and the appropriate programmer tool installed and configured for this step to work.
 

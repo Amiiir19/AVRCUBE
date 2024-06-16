@@ -7,6 +7,15 @@ It includes instructions on handling generated drivers and prerequisites for set
 - Downloads a base project structure from a remote repository (configurable).
 - Customizes the project by copying relevant driver files based on your selections.
 
+## Contents 
+* [Features](#features)
+* [Getting Started ](#getting-started)
+* [Usage](#usage)
+* [Compile](#compile)
+* [Flashing](#flashing)
+
+
+
 ## Features
 
 - **Interactive Configuration**: Use avrmenu.sh with kconfig-mconf to select AVR drivers and project configurations interactively.

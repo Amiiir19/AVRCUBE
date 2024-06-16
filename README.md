@@ -9,6 +9,7 @@ It includes instructions on handling generated drivers and prerequisites for set
 
 ## Contents 
 * [Features](#features)
+* [Prerequisites](#prerequisites)
 * [Getting Started ](#getting-started)
 * [Usage](#usage)
 * [Compile](#compile)
@@ -21,6 +22,7 @@ It includes instructions on handling generated drivers and prerequisites for set
 - **Interactive Configuration**: Use avrmenu.sh with kconfig-mconf to select AVR drivers and project configurations interactively.
 - **Project Customization**: Automates fetching a project template from GitHub (https://github.com/Amiiir19/AVR_DRIVERS) and integrates selected drivers based on user preferences.
 - **Build Setup**: Instructions to set up and build the customized AVR project using CMake are provided.
+
 ## Prerequisites
 Ensure you have the following installed and configured:
 

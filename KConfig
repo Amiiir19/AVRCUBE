@@ -1,0 +1,73 @@
+# Main Kconfig file
+mainmenu "AVR ATMEGA32 Drivers "
+
+comment "By Abdelrahman Mohamed Amir"
+
+menu "MCAL Drivers"
+config GPIO
+   bool "GPIO Driver"
+    default n
+config EXTI
+    bool "External Interrupts Driver"
+    default n
+config ADC
+   bool "ADC Driver"
+   default n
+config TIMERS
+   bool "Timers Driver"
+   default n
+config ICU
+   bool "ICU Driver"
+   default n
+config WDT
+   bool "WDT Driver"
+   default n
+config PWM
+   bool "PWM Driver"
+   default n
+endmenu
+
+#####################################
+menu "HAL Drivers"
+config KEYPAD
+   bool "KEYPAD Driver"
+   default n
+config LCD
+   bool "LCD Driver"
+   default n
+config Buzzer
+   bool "Buzzer Driver"
+   default n
+config DC_MOTOR
+   bool "DC Motor Driver"
+   default n
+config EEPROM
+   bool "EEPROM Driver"
+   default n
+config TEMP_SENSOR
+   bool "LM35 Temperature Sensor Driver"
+   default n
+config ULTRASONIC
+   bool "Ultrasonic Driver"
+   default n
+endmenu
+#########################################################
+menu "Communication Protocols Drivers"
+config USART
+   bool "USART Driver"
+    default n
+config SPI
+    bool "SPI Driver"
+    default n
+config I2C
+   bool "I2C Driver"
+   default n
+endmenu
+
+config runNow
+   bool "Generate Now"
+   default n
+
+config ONLINE
+   bool "Generate Online"
+   default n

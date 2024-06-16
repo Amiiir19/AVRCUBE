@@ -4,7 +4,7 @@
 
 # Assuming your script is named your_script.sh, replace it with your actual script name
 SCRIPT_NAME="avrmenu.sh"
-ALIAS_NAME="avrmenu2"
+ALIAS_NAME="avrmenu"
 
 # Check if script is executable
 chmod +x "$SCRIPT_NAME"

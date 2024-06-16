@@ -1,11 +1,17 @@
 # AVR Project Customization and Build Tool
 
+![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/menu.png)
+
+
+
 This repository provides Bash scripts (avrmenu.sh and install.sh) designed to configure and customize AVR microcontroller projects seamlessly. 
 It includes instructions on handling generated drivers and prerequisites for setting up the environment.
 
 - Interactively guides you through selecting the desired AVR drivers using the kconfig menu.
 - Downloads a base project structure from a remote repository (configurable).
 - Customizes the project by copying relevant driver files based on your selections.
+
+
 
 ## Contents 
 * [Features](#features)

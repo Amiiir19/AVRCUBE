@@ -1,46 +1,32 @@
-# Project Title
+# AVR Project with Menuconfig
 
-## Table of Contents
+This repository contains an AVR project template that allows you to configure and build your project using `menuconfig` and CMake. It provides a streamlined approach to customize project options and manage drivers efficiently.
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+## Features
 
-## About <a name = "about"></a>
+- **Interactive Configuration**: Use `menuconfig` to select AVR drivers and features.
+- **CMake Build System**: Build your project with CMake for flexibility and scalability.
+- **Customization**: Easily add or remove AVR drivers based on project requirements.
 
-Write about 1-2 paragraphs describing the purpose of your project.
+## Prerequisites
 
-## Getting Started <a name = "getting_started"></a>
+- AVR Toolchain: Ensure AVR GCC and related tools are installed.
+- CMake (version 3.28 or higher): For configuring and building the project.
+- `kconfig-mconf`: Tool for interactive configuration (typically used with Linux-like environments).
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+## Getting Started
 
-### Prerequisites
+1. **Clone the Repository**:
 
-What things you need to install the software and how to install them.
+   ```bash
+   git clone https://github.com/yourusername/avr-project.git
+   cd avr-project
+   ```
 
-```
-Give examples
-```
+2. **Configure Project**:
+- Run menuconfig to customize your project settings interactively:
+   ```bash
+./myscript.sh
+   ```
+   Select the AVR drivers and features you want to include in your project.
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.

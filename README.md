@@ -46,7 +46,7 @@ avrmenu
 ```bash 
 avrmenu
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/menu.png)
 
 ### 3. Shows Which AVR Drivers You need to use with your application 
 Be Careful Till now this project doesnt support the depenedency of drivers on eah other so choose your drivers carefully. 

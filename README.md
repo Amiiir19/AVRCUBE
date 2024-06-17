@@ -103,14 +103,20 @@ your project:
 
 This will compile your source code (.c files) and link them with the appropriate driver libraries, creating an executable file (typically named project_name.elf).
 
-![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/tree.png)
+make 
+![alt text](https://github.com/Amiiir19/AVRCUBE/blob/main/pics/make.png)
+
+ generated files
+
+![alt text](https://github.com/Amiiir19/AVRCUBE/blob/main/pics/file.png)
 
 
 ## Flashing 
 ### **Flashing the MCU:** 
 Another custom target allows you to flash the generated hex file directly to your microcontroller using avrdude:
 
-![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/tree.png)
+![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/1.png)
+![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/2.png)
 
 Ensure you have avr-objcopy, avrdude, and the appropriate programmer tool installed and configured for this step to work.
 

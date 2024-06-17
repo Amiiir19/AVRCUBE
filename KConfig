@@ -27,7 +27,7 @@ config PWM
    default n
 endmenu
 
-#####################################
+####################################
 menu "HAL Drivers"
 config KEYPAD
    bool "KEYPAD Driver"

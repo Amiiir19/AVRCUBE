@@ -9,7 +9,7 @@ ALIAS_NAME="avrmenu"
 # Check if script is executable
 chmod +x "$SCRIPT_NAME"
 
-# Determine user's shell (bash or zsh)
+# Determine user's shell (bash or zsh
 SHELL_PROFILE="$HOME/.bashrc"  # Default to bash
 
 if [ -n "$ZSH_VERSION" ]; then

@@ -2,7 +2,7 @@
 
 #kconfig-mconf ~/avrmenu/KConfig
 
-# script running script
+# script running scrip
 #workDir=$(dirname "$(readlink -f "$0")")
 #echo $workDir
 

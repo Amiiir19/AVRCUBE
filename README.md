@@ -65,6 +65,11 @@ avrmenu
 ```bash 
 avrmenu
 ```
+### Generate Now Option
+Generate the Project Immediatley Must be set to generate the Drivers
+### Generate Online
+ Generate Driver From my AVR Drivers REPO , IF IT NOT USED .. it will use the local AVR DRIVER we added to the device during install.sh execution
+
 ![alt text](https://github.com/Amiiir19/AVRCUBE_BASH_final/blob/main/pics/menu.png)
 
 ### 3. Shows Which AVR Drivers You need to use with your application 

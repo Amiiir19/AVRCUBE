@@ -28,3 +28,11 @@ source "$SHELL_PROFILE"
 echo "Installation complete. Alias '$ALIAS_NAME' created for '$SCRIPT_NAME'."
 echo "You can now use '$ALIAS_NAME' to run your script."
 
+
+# Add Whole Drivers Folder To generate from them locally
+cd || exit
+curl -L -o AVR_DRIVERS.zip https://github.com/Amiiir19/AVR_DRIVERS/archive/main.zip
+unzip -o -q -d  $(echo AVR_DRIVERS.zip | sed 's/\(.*\)\.zip/\1/') AVR_DRIVERS
+rm AVR_DRIVERS.zip
+
+

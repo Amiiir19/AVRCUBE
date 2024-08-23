@@ -109,95 +109,95 @@ if [ "x$CONFIG_runNow" == "xy" ]; then
         mkdir project
         cd project || exit
         mkdir MCAL_DRIVERS HAL_DRIVERS build
-        cp -r ~/AVR_DRIVERS/LIB_DRIVERS .
-        cp -r ~/AVR_DRIVERS/APP .
-        cp -r ~/AVR_DRIVERS/src .
-        cp ~/AVR_DRIVERS/CMakeLists.txt .
+        cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/LIB_DRIVERS .
+        cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/APP .
+        cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/src .
+        cp ~/AVR_DRIVERS/AVR_DRIVERS-main/CMakeLists.txt .
 
         #we put x here to avoid the $ being empty
         if [ "x$CONFIG_GPIO" == "xy" ]; then
             echo "GPIO Enabled"
-            cp -r ~/AVR_DRIVERS/MCAL_DRIVERS/GPIO MCAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/MCAL_DRIVERS/GPIO MCAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_ADC" == "xy" ]; then
             echo "ADC Enabled"
-            cp -r ~/AVR_DRIVERS/MCAL_DRIVERS/ADC MCAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/MCAL_DRIVERS/ADC MCAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_EXTI" == "xy" ]; then
             echo "EXTI Enabled"
-            cp -r ~/AVR_DRIVERS/MCAL_DRIVERS/EXTI MCAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/MCAL_DRIVERS/EXTI MCAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_TIMER" == "xy" ]; then
             echo "Timers Enabled"
-            cp -r ~/AVR_DRIVERS/MCAL_DRIVERS/TIMER MCAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/MCAL_DRIVERS/TIMER MCAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_PWM" == "xy" ]; then
             echo "PWM Enabled"
-            cp -r ~/AVR_DRIVERS/MCAL_DRIVERS/PWM MCAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/MCAL_DRIVERS/PWM MCAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_WDT" == "xy" ]; then
             echo "WDT Enabled"
-            cp -r ~/AVR_DRIVERS/MCAL_DRIVERS/WDT MCAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/MCAL_DRIVERS/WDT MCAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_ICU" == "xy" ]; then
             echo "ICU Enabled"
-            cp -r ~/AVR_DRIVERS/MCAL_DRIVERS/ICU MCAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/MCAL_DRIVERS/ICU MCAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_SPI" == "xy" ]; then
             echo "SPI Enabled"
-            cp -r ~/AVR_DRIVERS/MCAL_DRIVERS/SPI MCAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/MCAL_DRIVERS/SPI MCAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_I2C" == "xy" ]; then
             echo "I2C Enabled"
-            cp -r ~/AVR_DRIVERS/MCAL_DRIVERS/I2C MCAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/MCAL_DRIVERS/I2C MCAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_UART" == "xy" ]; then
             echo "UART Enabled"
-            cp -r ~/AVR_DRIVERS/MCAL_DRIVERS/UART MCAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/MCAL_DRIVERS/UART MCAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_BUZZER" == "xy" ]; then
             echo "BUZZER Enabled"
-            cp -r ~/AVR_DRIVERS/HAL_DRIVERS/BUZZER HAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/HAL_DRIVERS/BUZZER HAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_DC_MOTOR" == "xy" ]; then
             echo "DC Motor Enabled"
-            cp -r ~/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR HAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/HAL_DRIVERS/DC_MOTOR HAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_KEYPAD" == "xy" ]; then
             echo "KEYPAD Enabled"
-            cp -r ~/AVR_DRIVERS/HAL_DRIVERS/KEYPAD HAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/HAL_DRIVERS/KEYPAD HAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_LCD" == "xy" ]; then
             echo "LCD Enabled"
-            cp -r ~/AVR_DRIVERS/HAL_DRIVERS/LCD HAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/HAL_DRIVERS/LCD HAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_ULTRASONIC" == "xy" ]; then
             echo "ULTRASONIC Enabled"
-            cp -r ~/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC HAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/HAL_DRIVERS/ULTRASONIC HAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_TEMP_SENSOR" == "xy" ]; then
             echo "TEMP_SENSOR Enabled"
-            cp -r ~/AVR_DRIVERS/HAL_DRIVERS/SENSOR HAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/HAL_DRIVERS/SENSOR HAL_DRIVERS/
         fi
 
         if [ "x$CONFIG_EEPROM" == "xy" ]; then
             echo "EEPROM Enabled"
-            cp -r ~/AVR_DRIVERS/HAL_DRIVERS/EEPROM HAL_DRIVERS/
+            cp -r ~/AVR_DRIVERS/AVR_DRIVERS-main/HAL_DRIVERS/EEPROM HAL_DRIVERS/
         fi
 
     fi

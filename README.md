@@ -46,7 +46,7 @@ Ensure you have the following installed and configured:
 git clone https://github.com/Amiiir19/AVRCUBE_BASH_final.git
 cd AVRCUBE_BASH_final
 ```
-### 2. Run the installation script. This creates an alias `avrmenu` for `avrmenu.sh`
+### 2. Run the installation script. This creates an alias `avrmenu` for `avrmenu.sh` & Add Local Drivers for the Local Generation Option
 
 ```bash 
 ./install.sh
@@ -106,7 +106,7 @@ This will compile your source code (.c files) and link them with the appropriate
 make 
 ![alt text](https://github.com/Amiiir19/AVRCUBE/blob/main/pics/make.png)
 
- generated files
+ Generated files
 
 ![alt text](https://github.com/Amiiir19/AVRCUBE/blob/main/pics/file.png)
 

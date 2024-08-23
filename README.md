@@ -43,8 +43,8 @@ Ensure you have the following installed and configured:
 
 ### 1. Clone this repository:
 ```bash 
-git clone https://github.com/Amiiir19/AVRCUBE_BASH_final.git
-cd AVRCUBE_BASH_final
+git clone https://github.com/Amiiir19/AVRCUBE.git
+cd AVRCUBE
 ```
 ### 2. Run the installation script. This creates an alias `avrmenu` for `avrmenu.sh` & Add Local Drivers for the Local Generation Option
 

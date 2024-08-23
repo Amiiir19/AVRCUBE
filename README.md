@@ -49,6 +49,8 @@ cd AVRCUBE
 ### 2. Run the installation script. This creates an alias `avrmenu` for `avrmenu.sh` & Add Local Drivers for the Local Generation Option
 
 ```bash 
+#to Allow Execution 
+chmod 777 install.sh
 ./install.sh
 ```
 

@@ -37,6 +37,7 @@ Ensure you have the following installed and configured:
 - **AVR Toolchain**: Install AVR-GCC and AVR-G++ compilers (avr-gcc and avr-g++).
 - **Set the path to your AVR toolchain** in CMakeLists.txt (AVR_TOOLCHAIN_PATH).
 - **kconfig-mconf** Used for interactive configuration. Ensure it's installed and configured for use with Bash.
+- **unzip** 
 
 
 ## Getting Started 
